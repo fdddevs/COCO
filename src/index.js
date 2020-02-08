@@ -1,8 +1,19 @@
+import 'react-native-gesture-handler';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      {/* Rest of your app code */}
+    </NavigationContainer>
+  );
+}
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

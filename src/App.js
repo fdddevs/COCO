@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import React, { Component } from 'react';
 import {
   StyleSheet,
@@ -9,6 +10,16 @@ import {
   Easing,
 } from 'react-native';
 import logo from './logo.png';
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      {/* Rest of your app code */}
+    </NavigationContainer>
+  );
+}
 
 class App extends Component {
   state = {
